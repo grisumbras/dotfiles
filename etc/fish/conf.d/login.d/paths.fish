@@ -1,1 +1,2 @@
-set -gx LD_LIBRARY_PATH "$USER_ROOT/lib"
+set -gx PATH "$USER_ROOT/bin" $PATH
+set -gx LD_LIBRARY_PATH "$USER_ROOT/lib" $LD_LIBRARY_PATH
