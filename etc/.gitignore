@@ -1,0 +1,12 @@
+/*
+*~
+
+!.gitignore
+
+!/git
+/git/gitk
+
+!/fish
+/fish/fishd.*
+
+!/fontconfig
