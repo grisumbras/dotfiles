@@ -1,0 +1,6 @@
+/.kdev4/
+*.kdev4
+Session.vim
+/compile_commands.json
+/build
+ide.vim

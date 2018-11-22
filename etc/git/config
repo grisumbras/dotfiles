@@ -1,0 +1,69 @@
+[advice]
+  pushNonFastForward = false
+  statushints = true
+
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  ss = status
+  unstage = reset HEAD --
+  un = reset HEAD --
+  last = log -1 HEAD
+  st = stage
+  discard = checkout --
+  dc = checkout --
+
+[branch]
+  autosetupmerge = true
+
+[color]
+  branch=auto
+  diff=auto
+  grep=auto
+  interactive=auto
+  showbranch=auto
+  ui=auto
+
+[column]
+  ui = auto
+
+[core]
+  autocrlf = input
+
+[diff]
+  tool = vimdiff
+  renames = copies
+  mnemonicprefix = true
+
+[difftool]
+  prompt = false
+
+[grep]
+  lineNumber=true
+
+[merge]
+  tool = vimdiff
+  stat = true
+  conflictstyle = diff3
+  prompt = false
+  ff = only
+
+[mergetool]
+  prompt = false
+
+[pull]
+  ff = only
+
+[push]
+  default = current
+
+[rerere]
+  enabled = true
+
+[user]
+  email = grisumbras@gmail.com
+  name = Архипов Дмитрий
+
+[credential]
+	helper = cache
