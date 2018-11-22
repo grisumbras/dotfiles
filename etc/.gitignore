@@ -10,3 +10,5 @@
 /fish/fishd.*
 
 !/fontconfig
+
+!/tmux/
