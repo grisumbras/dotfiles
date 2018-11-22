@@ -1,0 +1,1 @@
+set -gx LD_LIBRARY_PATH "$USER_ROOT/lib"
