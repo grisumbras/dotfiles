@@ -1,5 +1,12 @@
-if test -d $XDG_CONFIG_HOME/fish/conf.d/login.d
-  for file in $XDG_CONFIG_HOME/fish/conf.d/login.d/*.fish
-    source $file
-  end
-end
+set -gx PATH "$USER_ROOT/bin" \
+		/usr/local/sbin \
+		/usr/local/bin \
+		/usr/sbin \
+		/usr/bin \
+		/sbin \
+		/bin \
+		/usr/local/games \
+		/usr/games \
+		/snap/bin
+
+set -gx LD_LIBRARY_PATH "$USER_ROOT/lib"
