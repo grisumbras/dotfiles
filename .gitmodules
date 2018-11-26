@@ -4,3 +4,45 @@
 [submodule "etc/nvim/bundle/vim-pathogen"]
 	path = etc/nvim/bundle/vim-pathogen
 	url = git@github.com:tpope/vim-pathogen.git
+[submodule "etc/nvim/bundle/targets.vim"]
+	path = etc/nvim/bundle/targets.vim
+	url = git@github.com:wellle/targets.vim.git
+[submodule "etc/nvim/bundle/tcomment_vim"]
+	path = etc/nvim/bundle/tcomment_vim
+	url = git@github.com:tomtom/tcomment_vim.git
+[submodule "etc/nvim/bundle/vim-airline"]
+	path = etc/nvim/bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "etc/nvim/bundle/vim-airline-themes"]
+	path = etc/nvim/bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "etc/nvim/bundle/vim-obsession"]
+	path = etc/nvim/bundle/vim-obsession
+	url = git@github.com:tpope/vim-obsession.git
+[submodule "etc/nvim/bundle/vim-repeat"]
+	path = etc/nvim/bundle/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
+[submodule "etc/nvim/bundle/vim-surround"]
+	path = etc/nvim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "etc/nvim/bundle/vim-eunuch"]
+	path = etc/nvim/bundle/vim-eunuch
+	url = git@github.com:tpope/vim-eunuch.git
+[submodule "etc/nvim/bundle/vim-tmux-navigator"]
+	path = etc/nvim/bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule "etc/nvim/bundle/vim-characterize"]
+	path = etc/nvim/bundle/vim-characterize
+	url = git@github.com:tpope/vim-characterize.git
+[submodule "etc/nvim/bundle/vim-dispatch"]
+	path = etc/nvim/bundle/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
+[submodule "etc/nvim/bundle/vim-polyglot"]
+	path = etc/nvim/bundle/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
+[submodule "etc/nvim/bundle/vim-fugitive"]
+	path = etc/nvim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "etc/nvim/bundle/vim-bufkill"]
+	path = etc/nvim/bundle/vim-bufkill
+	url = git@github.com:qpkorr/vim-bufkill.git
