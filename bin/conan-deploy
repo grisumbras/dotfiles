@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+: ${CONAN_USER_HOME:=$HOME}
+: ${USER_ROOT:=$HOME/.local}
+
+set -e
+
+reference=$1
+shift
+
+conan install "$reference" "$@" --build missing
+
+id=$(conan info "$reference" "$@" -n id | sed -n 2p | cut -d: -f2 | xargs echo)
+basepath=$(echo "$reference" | sed 's|@|/|')
+path="$CONAN_USER_HOME/.conan/data/$basepath/package/"
+
+stow -d "$path" -t "$USER_ROOT" --ignore 'conan[^\.]*\.txt' -v "$id"

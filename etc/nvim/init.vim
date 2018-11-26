@@ -86,6 +86,8 @@ let g:airline_section_z = airline#section#create(['%{ObsessionStatus(''$'', ''''
 let g:targets_argOpening = '[({[<]'
 let g:targets_argClosing = '[]})>]'
 
+let g:b2_makeprg_params = '-j5'
+
 set spellfile="~/.local/etc/nvim/spellfile"
 
 augroup myFocusLost
@@ -150,4 +152,4 @@ nnoremap <silent> gr :grep! <C-r><C-w><CR>:cw<CR>
 nnoremap <silent> gR :grep! '\b<C-r><C-w>\b':cw<CR>
 
 nnoremap <C-S> :w!<CR>
-nnoremap <C-c> :BD<CR>
+nnoremap <C-q> :BD<CR>
