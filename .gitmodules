@@ -1,0 +1,6 @@
+[submodule "etc/nvim/bundle/gruvbox"]
+	path = etc/nvim/bundle/gruvbox
+	url = git@github.com:morhetz/gruvbox.git
+[submodule "etc/nvim/bundle/vim-pathogen"]
+	path = etc/nvim/bundle/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen.git
