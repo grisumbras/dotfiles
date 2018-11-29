@@ -16,9 +16,9 @@ set linebreak
 set display=lastline
 set updatetime=250
 
-set tabstop=2 
-set shiftwidth=2 
-set softtabstop=2 
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 set scrolloff=3
@@ -56,7 +56,6 @@ set nowrap
 set colorcolumn=80
 set formatoptions-=tc
 set formatoptions+=qrn1j
-nnoremap <silent> <F5> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 
 set list
 set lcs=tab:▸\ ,trail:·
@@ -105,12 +104,14 @@ augroup vimrcEx
     \ endif
 augroup END
 
+augroup autoRemoveTrailingWs
+  autocmd BufWritePre * :%s/\s\+$//e
+augroup END
+
 let mapleader = "\<Space>"
 let maplocalleader = "\<Space>"
 
 nnoremap Y y$
-nnoremap H ^
-nnoremap L $
 
 nnoremap <Leader>h <C-w>v<C-w>l
 nnoremap <Leader>v <C-w>s<C-w>j
@@ -153,3 +154,9 @@ nnoremap <silent> gR :grep! '\b<C-r><C-w>\b':cw<CR>
 
 nnoremap <C-S> :w!<CR>
 nnoremap <C-q> :BD<CR>
+
+nnoremap <silent> <F5> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
+
+nnoremap <F8> :Make!<CR>
+nnoremap <S-F8> :Make! install<CR>
+nnoremap <F9> :Make! test<CR>
