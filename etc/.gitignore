@@ -5,6 +5,8 @@
 
 !/boost-build
 
+!/cookiecutter
+
 !/git
 /git/gitk
 

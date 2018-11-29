@@ -1,0 +1,12 @@
+default_context:
+  full_name: Dmitry Arkhipov
+  email: grisumbras@gmail.com
+  github_username: grisumbras
+  gitlab_username: grisumbras
+  remote_username: grisumbras
+  remote_server: github.com
+  cmake_minimum: 3.12.0
+  git: true
+  conan: txt
+cookiecutters_dir: $XDG_CONFIG_HOME/cookiecutter/templates/
+replay_dir: $XDG_DATA_HOME/cookiecutter/replay
