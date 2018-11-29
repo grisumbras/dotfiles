@@ -1,5 +1,7 @@
 set -gx MANPAGER "view -c 'set ft=man' -"
 
+set -gx BOOST_BUILD_PATH $XDG_CONFIG_HOME/boost-build
+
 # Shell prompt
 set -gx PROMPT_DEFAULT_USER grisumbras
 set -gx PROMPT_DISPLAY_USER yes
