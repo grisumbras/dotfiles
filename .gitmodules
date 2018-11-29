@@ -49,3 +49,9 @@
 [submodule "etc/nvim/bundle/denite.nvim"]
 	path = etc/nvim/bundle/denite.nvim
 	url = git@github.com:Shougo/denite.nvim.git
+[submodule "etc/nvim/bundle/vim-b2"]
+	path = etc/nvim/bundle/vim-b2
+	url = git@github.com:grisumbras/vim-b2.git
+[submodule "etc/nvim/bundle/vim-dispatch-neovim"]
+	path = etc/nvim/bundle/vim-dispatch-neovim
+	url = git@github.com:radenling/vim-dispatch-neovim.git
