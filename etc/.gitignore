@@ -6,6 +6,7 @@
 !/boost-build
 
 !/cookiecutter
+/cookiecutter/templates
 
 !/git
 /git/gitk
