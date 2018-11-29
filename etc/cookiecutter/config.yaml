@@ -11,4 +11,4 @@ default_context:
 cookiecutters_dir: $XDG_CONFIG_HOME/cookiecutter/templates/
 replay_dir: $XDG_DATA_HOME/cookiecutter/replay
 abbreviations:
-  b2: git+ssh://git@github.com/grisumbras/b2-cookiecutter.git
+  b2: b2-cookiecutter
