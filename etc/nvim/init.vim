@@ -47,10 +47,10 @@ set wildmode=longest,list:full
 set wildcharm=<Tab>
 
 set ignorecase
-set smartcase 
+set smartcase
 set incsearch
-set hlsearch 
-set gdefault 
+set hlsearch
+set gdefault
 set showmatch
 set nowrap
 set colorcolumn=80
@@ -143,6 +143,7 @@ nnoremap <silent> ]T :tablast<CR>
 
 nnoremap <Leader>src :source $MYVIMRC<CR>
 nnoremap <Leader>erc :e$MYVIMRC<CR>
+nnoremap <Leader>d :20Lexplore<CR>
 
 noremap <Up> <Nop>
 noremap <Down> <Nop>
