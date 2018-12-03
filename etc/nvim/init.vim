@@ -158,6 +158,6 @@ nnoremap <C-q> :BD<CR>
 
 nnoremap <silent> <F5> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 
-nnoremap <F8> :Make!<CR>
-nnoremap <S-F8> :Make! install<CR>
-nnoremap <F9> :Make! test<CR>
+nnoremap <F8> :Make<CR>
+nnoremap <S-F8> :Make install<CR>
+nnoremap <F9> :Make test<CR>
