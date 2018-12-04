@@ -62,6 +62,7 @@ set lcs=tab:▸\ ,trail:·
 
 set grepprg=ag\ --vimgrep
 set complete=.,w,b,u,t
+set completeopt=menuone,preview,longest
 
 set autoread
 set history=1000
@@ -158,6 +159,6 @@ nnoremap <C-q> :BD<CR>
 
 nnoremap <silent> <F5> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 
-nnoremap <F8> :Make<CR>
-nnoremap <S-F8> :Make install<CR>
-nnoremap <F9> :Make test<CR>
+nnoremap m,i :Make install<CR>
+nnoremap m,t :Make test<CR>
+nnoremap m,c :Make check<CR>
