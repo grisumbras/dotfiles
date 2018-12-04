@@ -1,0 +1,5 @@
+include /usr/share/taskwarrior/holidays.ru-RU.rc
+include /usr/share/taskwarrior/dark-256.theme
+
+data.location=$XDG_DATA_HOME/taskwarrior
+verbose=blank,footnote,label,new-id,affected,special,project,unwait,recur

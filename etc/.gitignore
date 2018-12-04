@@ -20,3 +20,5 @@
 
 !/nvim/
 /nvim/.*
+
+!/taskwarrior

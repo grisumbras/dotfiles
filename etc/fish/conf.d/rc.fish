@@ -4,6 +4,8 @@ set -gx BOOST_BUILD_PATH $XDG_CONFIG_HOME/boost-build
 
 set -gx COOKIECUTTER_CONFIG $XDG_CONFIG_HOME/cookiecutter/config.yaml
 
+set -gx TASKRC $XDG_CONFIG_HOME/taskwarrior/taskrc
+
 # Shell prompt
 set -gx PROMPT_DEFAULT_USER grisumbras
 set -gx PROMPT_DISPLAY_USER yes
