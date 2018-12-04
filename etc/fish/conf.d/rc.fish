@@ -1,3 +1,4 @@
+set -gx EDITOR vim
 set -gx MANPAGER "view -c 'set ft=man' -"
 
 set -gx BOOST_BUILD_PATH $XDG_CONFIG_HOME/boost-build
