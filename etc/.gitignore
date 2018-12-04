@@ -11,6 +11,8 @@
 !/git
 /git/gitk
 
+!/gnupg
+
 !/fish
 /fish/fishd.*
 
