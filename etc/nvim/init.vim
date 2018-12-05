@@ -145,6 +145,7 @@ nnoremap <silent> ]T :tablast<CR>
 nnoremap <Leader>src :source $MYVIMRC<CR>
 nnoremap <Leader>erc :e$MYVIMRC<CR>
 nnoremap <Leader>d :20Lexplore<CR>
+nnoremap <Leader>U :MundoToggle<CR>
 
 noremap <Up> <Nop>
 noremap <Down> <Nop>

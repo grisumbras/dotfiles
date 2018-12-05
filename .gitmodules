@@ -55,3 +55,6 @@
 [submodule "etc/nvim/bundle/vim-dispatch-neovim"]
 	path = etc/nvim/bundle/vim-dispatch-neovim
 	url = git@github.com:radenling/vim-dispatch-neovim.git
+[submodule "etc/nvim/bundle/vim-mundo"]
+	path = etc/nvim/bundle/vim-mundo
+	url = https://github.com/simnalamburt/vim-mundo.git
