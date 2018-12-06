@@ -24,18 +24,18 @@ function prompt-scm-view -d 'Displays SCM state for current directory'
   end
 
   set -l stashed ''
-  set -q PROMPT_SCM_STASHED; and set stashed \ $PROMPT_SCM_MARK_STASH
+  set -q PROMPT_SCM_STASHED; and set stashed \ $PROMPT_MARK_SCM_STASH
 
   set -l commits ''
   if set -q PROMPT_SCM_BEHIND
     if set -q PROMPT_SCM_AHEAD
-      set commits $PROMPT_SCM_MARK_DIVERGED
+      set commits $PROMPT_MARK_SCM_DIVERGED
       set bg_color magenta
     else
-      set commits $PROMPT_SCM_MARK_BEHIND
+      set commits $PROMPT_MARK_SCM_BEHIND
     end
   else if set -q PROMPT_SCM_AHEAD
-    set commits $PROMPT_SCM_MARK_AHEAD
+    set commits $PROMPT_MARK_SCM_AHEAD
   end
 
   set -l msg $PROMPT_SCM_REFICON$PROMPT_SCM_REFNAME$commits$changes$stashed
