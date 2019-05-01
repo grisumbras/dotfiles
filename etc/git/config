@@ -63,7 +63,7 @@
 
 [user]
   email = grisumbras@gmail.com
-  name = Архипов Дмитрий
+  name = Dmitry Arkhipov
 
 [credential]
 	helper = cache
