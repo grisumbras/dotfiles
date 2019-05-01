@@ -7,7 +7,8 @@ set -gx PATH "$USER_ROOT/bin" \
   /bin \
   /usr/local/games \
   /usr/games \
-  /snap/bin
+  /snap/bin \
+  $HOME/.gem/ruby/2.5.0/bin
 
 set -gx LD_LIBRARY_PATH "$USER_ROOT/lib"
 
